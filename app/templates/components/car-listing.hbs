@@ -1,0 +1,8 @@
+<article class="listing">
+	<img src="{{car.image}}" alt="">
+	<h3>{{#link-to "cars.show" car}}{{car.title}}{{/link-to}}</h3>
+	<div class="detail owner">
+		<span>Owner:</span> {{car.manufacturer}}
+	</div>
+</article>
+{{outlet}}

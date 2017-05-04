@@ -1,0 +1,160 @@
+{
+  "cars" : [ {
+    "attributes" : {
+      "color" : "red",
+      "configuration" : "Demo Cinfig one",
+      "description" : "Lorem ipsum is simply a dummy text, lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/3/36/BMW_i8_in_Dresden_Hellerau_%281%29.jpg",
+      "manufacturer" : "BMW",
+      "title" : "BMW i8"
+    },
+    "brand" : "bmw",
+    "id" : "bmw-i8",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "black",
+      "configuration" : "Demo Cinfig two",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/c/cd/Audi_Q7_1.jpg",
+      "manufacturer" : "Audi",
+      "title" : "Audi Q7"
+    },
+    "brand" : "audi",
+    "id" : "audi-q7",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "white",
+      "configuration" : "Demo Cinfig three",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/f/ff/This_is_a_pic_of_Honda_Amaze_Sedan-_2014-03-26_23-21.jpg",
+      "manufacturer" : "Honda",
+      "title" : "Amaze"
+    },
+    "brand" : "honda",
+    "id" : "amaze",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "black",
+      "configuration" : "Demo Cinfig four",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/9/91/BMW_Series3_black_v.jpg",
+      "manufacturer" : "BMW",
+      "title" : "BMW 3 Series"
+    },
+    "brand" : "bmw",
+    "id" : "bmw-3-series",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "grey",
+      "configuration" : "Demo Cinfig five",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/7/74/BMW_Z4_silver_v.jpg",
+      "manufacturer" : "BMW",
+      "title" : "BMW Z4"
+    },
+    "brand" : "bmw",
+    "id" : "bmw-z4",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "white",
+      "configuration" : "Demo Cinfig six",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/4/44/Jaguar_XF.jpg",
+      "manufacturer" : "Jaguar",
+      "title" : "Jaguar XF"
+    },
+    "brand" : "jaguar",
+    "id" : "jaguar-xf",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "black",
+      "configuration" : "Demo Cinfig seven",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/6/6c/Jaguar_F-Pace_%28front_3-4%29.JPG",
+      "manufacturer" : "Jaguar",
+      "title" : "Jaguar F-Pace"
+    },
+    "brand" : "jaguar",
+    "id" : "jaguar-f-pace",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "red",
+      "configuration" : "Demo Cinfig eight",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/c/ce/Audi_a4_2004_rod_sedan.jpg",
+      "manufacturer" : "Audi",
+      "title" : "Audi A4"
+    },
+    "brand" : "audi",
+    "id" : "audi-a4",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "red",
+      "configuration" : "Demo Cinfig nine",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/7/7f/Jaguar_XE_2016_front_three-quarter.jpg",
+      "manufacturer" : "Jaguar",
+      "title" : "Jaguar XE"
+    },
+    "brand" : "jaguar",
+    "id" : "jaguar-xe",
+    "type" : "car"
+  }, {
+    "attributes" : {
+      "color" : "white",
+      "configuration" : "Demo Cinfig ten",
+      "description" : "Lorem ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text, lreom ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/2/20/2010_Acura_MDX_--_2010_DC.jpg",
+      "manufacturer" : "Honda",
+      "title" : "Accord"
+    },
+    "brand" : "honda",
+    "id" : "accord",
+    "type" : "car"
+  } ],
+  "manufactures" : [ {
+    "attributes" : {
+      "description" : "Lorem ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/9/98/BMW_logo_ArtWW.svg",
+      "owner" : "BMW",
+      "title" : "BMW"
+    },
+    "id" : "bmw",
+    "type" : "manufacture"
+  }, {
+    "attributes" : {
+      "description" : "Lorem ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/4/4c/Jaguar_-_logo_%28MSP16%29.jpg",
+      "owner" : "Jaguar",
+      "title" : "Jaguar"
+    },
+    "id" : "jaguar",
+    "type" : "manufacture"
+  }, {
+    "attributes" : {
+      "description" : "Lorem ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/3/38/Audi-text.jpg",
+      "owner" : "Audi",
+      "title" : "Audi"
+    },
+    "id" : "audi",
+    "type" : "manufacture"
+  }, {
+    "attributes" : {
+      "description" : "Lorem ipsum is simply a dummy text",
+      "image" : "https://upload.wikimedia.org/wikipedia/commons/3/38/Honda.svg",
+      "owner" : "Honda",
+      "title" : "Honda"
+    },
+    "id" : "honda",
+    "type" : "manufacture"
+  } ]
+}

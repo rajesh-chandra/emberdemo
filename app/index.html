@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyC9pLWd7-GnRDn4sNPIrtcYrgHpeZS8ee4",
+        authDomain: "classicemberproject.firebaseapp.com",
+        databaseURL: "https://classicemberproject.firebaseio.com",
+        projectId: "classicemberproject",
+        storageBucket: "classicemberproject.appspot.com",
+        messagingSenderId: "486522727634"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>EmberProject</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for "head"}}
+
+    <link rel="stylesheet" href="{{rootURL}}assets/vendor.css">
+    <link rel="stylesheet" href="{{rootURL}}assets/ember-project.css">
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/ember-project.js"></script>
+
+    {{content-for "body-footer"}}
+  </body>
+</html>

@@ -1,0 +1,8 @@
+{{#car-filter filter=(action 'filterByBrand') as |cars|}}
+<ul class="results">
+	{{#each cars as |carUnit|}}
+	  	<li>{{car-listing car=carUnit}}</li>
+	{{/each}}
+</ul>
+{{/car-filter}}
+{{outlet}}

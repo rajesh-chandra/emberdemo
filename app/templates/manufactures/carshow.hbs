@@ -1,0 +1,10 @@
+{{#each model as car}}
+<article class="listing">
+	<img src="{{model.image}}" alt="">
+	<h3>{{#link-to "cars.show" model.id}}{{model.title}}{{/link-to}}</h3>
+	<div class="detail owner">
+		<span>Owner:</span> {{model.manufacturer}}
+	</div>
+</article>
+{{/each}}
+{{outlet}}

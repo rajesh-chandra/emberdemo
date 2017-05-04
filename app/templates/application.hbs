@@ -1,0 +1,40 @@
+<div class="container">
+  	<div class="menu">
+
+    	{{#link-to 'index'}}
+      	<h1>
+        	All Manufacturers
+      	</h1>
+    	{{/link-to}}
+      
+		  <div class="links">
+
+        {{#link-to 'manufactures.show' 'bmw'}}
+          BMW
+        {{/link-to}}
+
+        {{#link-to 'manufactures.show' 'honda'}}
+          Honda
+        {{/link-to}}
+
+        {{#link-to 'manufactures.show' 'audi'}}
+          Audi
+        {{/link-to}}
+
+        {{#link-to 'manufactures.show' 'jaguar'}}
+          Jaguar
+        {{/link-to}}
+
+        {{#link-to 'cars'}}
+            All Cars
+        {{/link-to}}
+
+      </div>
+
+    </div>
+
+  	<div class="body">
+    	{{outlet}}
+  	</div>
+
+</div>
